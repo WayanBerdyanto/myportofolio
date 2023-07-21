@@ -16,3 +16,8 @@ hamburger.addEventListener('click', function(){
     hamburger.classList.toggle('hamburger-active');
     navMenu.classList.toggle('hidden');
 });
+const hamburgerNav = document.querySelector("#home");
+
+hamburgerNav.addEventListener('hover', function(){
+    hamburgerNav.classList.toggle('hamburger-nav');
+});
